@@ -1,0 +1,25 @@
+.button{
+    width: 400px;
+    height: 80px;
+    background: linear-gradient(92.45deg, #006AAA 2.13%, #0084C8 99.49%);
+    border-radius: 15px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    line-height: 25px;
+    align-items: flex-start;
+    padding: 10px;
+    cursor: pointer;
+    position: fixed;
+    bottom: -60px;
+}
+
+@media(max-width: 600px){
+    .button{
+        width: 60%;
+    }
+}
