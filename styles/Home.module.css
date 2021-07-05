@@ -6,7 +6,6 @@ height: 95vh;
 }
 
 .main {
-  
   width: 100%;
   padding: 5rem 20%;
   display: flex;
@@ -120,4 +119,8 @@ height: 95vh;
   .main{
     padding: 0 10%;
   }
+}
+
+@media(max-width: 400px){
+  
 }

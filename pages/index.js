@@ -13,9 +13,11 @@ export default function Home() {
         <link rel="icon" href="/icon.png" />
       </Head>
       <div style = {{position: 'absolute', top: 10, left: '5%'}} >
-          <Image src = "/logo.png" width = {90} height = {40} />
+          <Image src = "/logo.png" width = {80} height = {35} />
         </div>
       <main className={styles.main}>
+
+        <h1>SELECIONE SUA REGIÃO</h1>
        
        <Button number = "15997905611" >SOROCABA/LITORAL NORTE</Button>
        <Button number = "11987446694" >ZONA NORTE/GUARULHOS</Button>

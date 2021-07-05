@@ -21,5 +21,15 @@
 @media(max-width: 600px){
     .button{
         width: 60%;
+        font-size: 14px;
     }
 }
+
+@media(max-width: 400px){
+    .button{
+        font-size: 12px;
+        height: 70px;
+        padding: 5px;
+    }
+}
+
